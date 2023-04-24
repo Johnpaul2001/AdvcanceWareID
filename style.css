@@ -9,7 +9,7 @@ body{
     margin: 0%;
 }
 .main{
-    height: 650px;
+    height: 695px;
     background: url(./ID.jpg);
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -41,7 +41,7 @@ body{
 }
 .footer{
     position: relative;
-    bottom: -60px;
+    bottom: -100px;
 }
 .footer p{
     color: white;
@@ -56,6 +56,6 @@ body{
 }
 .id{
     position: relative;
-    top: -86px;
+    top: -70px;
     left: 50px;
 }
