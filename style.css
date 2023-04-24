@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&family=Poppins:wght@200;600&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.main{
+    height: 650px;
+    background: url(./ID.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 350;
+}
+.name{
+    position: relative;
+    top: -20px;
+}
+.name h3{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+.name h4{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.contact i{
+    color: #ff2309;
+}
+.footer{
+    position: relative;
+    bottom: -60px;
+}
+.footer p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+.slogan{
+    position: relative;
+    top: -20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.id{
+    position: relative;
+    top: -86px;
+    left: 50px;
+}
