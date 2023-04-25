@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&family=Poppins:wght@200;600&display=swap');
-*{
+
+* {
     padding: 0%;
     margin: 0%;
 }
-body{
+
+body {
     padding: 0%;
     margin: 0%;
 }
-.main{
+
+.main {
     height: 695px;
     background: url(./ID.jpg);
     background-attachment: fixed;
@@ -16,49 +19,59 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
-.log{
+
+.log {
     height: 170px;
 }
-.links a{
+
+.links a {
     text-decoration: none;
     color: black;
     font-family: 'Poppins', sans-serif;
     font-weight: 350;
 }
-.name{
+
+.name {
     position: relative;
     top: -20px;
 }
-.name h3{
+
+.name h3 {
     color: black;
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
-    font-stretch:extra-condensed;
+    font-stretch: extra-condensed;
 }
-.name h4{
+
+.name h4 {
     color: black;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
-.contact i{
+
+.contact i {
     color: #ff2309;
 }
-.footer{
+
+.footer {
     position: relative;
     bottom: -130px;
 }
-.footer p{
+
+.footer p {
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
 }
-.slogan{
+
+.slogan {
     position: relative;
     top: -20px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
-.id{
+
+.id {
     position: relative;
     top: -70px;
     left: 50px;
