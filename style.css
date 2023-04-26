@@ -12,7 +12,9 @@ body {
 }
 
 .main {
-    height: 695px;
+    max-height: 100%;
+    max-width: 100%;
+    height: 968px;
     background: url(./ID.jpg);
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -21,7 +23,7 @@ body {
 }
 
 .log {
-    height: 170px;
+    height: 300px;
 }
 
 .links a {
@@ -39,7 +41,7 @@ body {
 .name h3 {
     color: black;
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
+    font-size: 55px;
     font-stretch: extra-condensed;
 }
 
@@ -47,15 +49,18 @@ body {
     color: black;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    font-size: 35px;
 }
-
+.contact{
+    font-size: 30px;
+}
 .contact i {
     color: #ff2309;
 }
 
 .footer {
     position: relative;
-    bottom: -130px;
+    bottom: -200px;
 }
 
 .footer p {
@@ -66,7 +71,7 @@ body {
 
 .slogan {
     position: relative;
-    top: -20px;
+    top:20px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }

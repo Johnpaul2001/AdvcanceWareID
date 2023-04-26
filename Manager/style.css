@@ -1,65 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&family=Poppins:wght@200;600&display=swap');
-*{
+
+* {
     padding: 0%;
     margin: 0%;
 }
-body{
+
+body {
     padding: 0%;
     margin: 0%;
 }
-.main{
-    height: 695px;
+
+.main {
+    max-height: 100%;
+    max-width: 100%;
+    height: 968px;
     background: url(./ID.jpg);
     background-attachment: fixed;
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
-.log{
-    height: 170px;
+
+.log {
+    height: 300px;
 }
-.links a{
+
+.links a {
     text-decoration: none;
     color: black;
     font-family: 'Poppins', sans-serif;
     font-weight: 350;
 }
-.name{
+
+.name {
     position: relative;
     top: -20px;
 }
-.name h3{
+
+.name h3 {
     color: black;
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    font-stretch:extra-condensed;
+    font-size: 55px;
+    font-stretch: extra-condensed;
 }
-.name h4{
+
+.name h4 {
     color: black;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    font-size: 35px;
 }
-.contact i{
+.contact{
+    font-size: 30px;
+}
+.contact i {
     color: #ff2309;
 }
-.footer{
+
+.footer {
     position: relative;
-    bottom: -130px;
+    bottom: -200px;
 }
-.footer p{
+
+.footer p {
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
 }
-.slogan{
+
+.slogan {
     position: relative;
-    top: -20px;
+    top:20px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
-.id{
+
+.id {
     position: relative;
     top: -70px;
     left: 50px;
+}
+@media screen and (max-width: 600px){
+    .main {
+            height: 695px;
+            background: url(./mobile.jpg);
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
 }
