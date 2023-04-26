@@ -8,8 +8,8 @@ body{
     margin: 0%;
 }
 .main{
-    height: 695px;
-    width: 470px;
+    height: 968px;
+    width: 660px;
     background: url(./manager.jpg);
     background-attachment: fixed;
     background-position: left;
@@ -17,18 +17,19 @@ body{
     background-size: contain;
 }
 .space{
-    height: 365px;
+    height: 520px;
 }
 .content{
     font-family: 'Poppins', sans-serif;
     color: white;
-    height: 37px;
+    height: 43x;
 }
 .content h2{
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
 }
 .title{
+    padding-top: 5px;
     text-align: center;
     color: white;
 }
@@ -36,34 +37,34 @@ body{
     font-size: 25px;
 }
 .info{
-    padding-top: 18px;
+    padding-top: 40px;
     color: white;
-    font-size: 13px;
-    line-height: 6px;
+    font-size: 18px;
+    line-height: 10px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-weight: 800px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 .slogan{
     color: white;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 13px;
-    padding-top: 20px;
+    font-size: 20px;
+    padding-top: 30px;
     letter-spacing: 1px;
 }
 .slogan .quo{
     color: red;
 }
 .footer{
-        padding-top: 50px;
+        padding-top: 90px;
 }
 .link{
     color: white;
-    font-size: 9px;
+    font-size: 12px;
     font-weight: 10px;
-    line-height: 13px;
+    line-height: 17px;
 }
 .link a{
     text-decoration: none;
@@ -76,6 +77,6 @@ body{
 }
 .address{
     color: white;
-    font-size: 9px;
+    font-size: 12px;
 
 }
