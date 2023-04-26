@@ -29,17 +29,16 @@ body{
     text-align: center;
 }
 .title{
-    padding-top: 0px;
     text-align: center;
     color: white;
+    position: relative;
+    top: -20px;
 }
 .title p{
     font-size: 25px;
-    position: relative;
-    top: -6px;
 }
 .info{
-    padding-top: 40px;
+    padding-top: 30px;
     color: white;
     font-size: 18px;
     line-height: 10px;
@@ -53,14 +52,15 @@ body{
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 20px;
-    padding-top: 30px;
+    padding-top: 20px;
     letter-spacing: 1px;
 }
 .slogan .quo{
     color: red;
 }
 .footer{
-        padding-top: 90px;
+    position: relative;
+    top: 13px;
 }
 .link{
     color: white;
@@ -85,7 +85,7 @@ body{
 }
 @media screen and (max-width:425px) {
     .main{
-        height: 882px;
+        height: 880px;
         width: 425px;
         background-size: 100% 100%;
     }
@@ -96,7 +96,7 @@ body{
         font-size: 23px;
     }
     .title{
-        padding-top: 18px;
+        padding-top: 30px;
     }
     .title p{
         font-size: 22px;
@@ -112,9 +112,7 @@ body{
         padding-top: 28px;
     }
     .footer{
-        padding-top: 100px;
-        position: relative;
-        bottom: -5px;
+        padding-top: 80px;
     }
     .link{
         font-size: 8px;
@@ -138,12 +136,18 @@ body{
         padding-top: 50px;
     }
     .title{
-        padding-top: 8px;
+        padding-top: 20px;
     }
 }
 @media screen and (min-width:1024px) {
     .title{
-        padding-top: 7px;
+        padding-top: 23px;
+    }
+    .space{
+        height: 470px;
+    }
+    .footer{
+        padding-top: 45px;
     }
 }
 @media screen and (min-width:1440px) {
@@ -152,16 +156,17 @@ body{
         width: 670px;
     }
     .space{
-        height: 520px;
+        height: 500px;
     }
     .content{
         height: 50px;
+        padding-top: 20px;
     }
     .footer{
-        padding-top: 80px;
+        padding-top: 60px;
     }
     .title{
-        padding-top: 10px;
+        padding-top: 45px;
     }
     .slogan{
         font-size: 20px;
@@ -179,13 +184,13 @@ body{
         text-align: center;
     }
     .title{
-        padding-top: 40px;
+        padding-top: 80px;
     }
     .title p{
         font-size: 45px;
     }
     .space{
-        height: 950px;
+        height: 920px;
     }
     .footer{
         padding-top: 170px;
