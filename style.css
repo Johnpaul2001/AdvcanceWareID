@@ -76,3 +76,13 @@ body {
     top: -70px;
     left: 50px;
 }
+@media screen and (max-width: 600px){
+    .main {
+            height: 695px;
+            background: url(./mobile.jpg);
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+}
