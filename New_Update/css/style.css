@@ -221,9 +221,75 @@ body {
         padding-left: 100px;
     }
 }
-@media screen and (min-width:1024px) {
+@media screen and (max-width:1024px) {
     .main {
         max-height: 768px;
+        overflow: hidden;
+    }
+    .header{
+        padding-left: 50px;
+        padding-top: 100px;
+        position: relative;
+        top: 20px;
+    }
+    .header img{
+        width: 500px;
+    }
+    
+    .name {
+        padding-top: 40px;
+        color: black;
+        width: 600px;
+    }
+    
+    .name h3 {
+        font-size: 33px;
+    }
+    
+    .name h4 {
+        font-size: 27px;
+    }
+    .contact {
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    .profile img{
+        width: 450px;
+        position: relative;
+        top: -90px;
+        left: -180px;
+    }
+    .footer{
+        position: relative;
+        top: -100px;
+    }
+    .footer p {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+    }
+    .links a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 350;
+        font-size: 12px;
+    }
+    .slogan {
+        position: relative;
+        top: -250px;
+        padding-left: 20px;
+    }
+    .slogan p{
+        font-size: 25px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        padding-left: 100px;
+    }
+}
+@media screen and (max-width:768px) {
+    .main {
+        max-height: 1024px;
         overflow: hidden;
     }
     .header{
