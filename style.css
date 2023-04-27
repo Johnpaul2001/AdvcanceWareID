@@ -84,7 +84,6 @@ body {
 @media screen and (max-width: 600px){
     .main {
             height: 695px;
-            background: url(./mobile.jpg);
             background-attachment: fixed;
             background-size: 100% 100%;
             background-position: center;
