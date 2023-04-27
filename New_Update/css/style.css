@@ -10,46 +10,39 @@ body {
     padding: 0%;
     margin: 0%;
 }
-
 .main {
-    max-height: 100%;
-    max-width: 100%;
-    height: 968px;
+    max-height: 1080px;
     background: url(../img/bg.jpg);
     background-attachment: fixed;
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
-
-.log {
-    height: 300px;
+.header{
+    padding-left: 50px;
+    padding-top: 100px;
 }
-
-.links a {
-    text-decoration: none;
-    color: black;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 350;
+.header img{
+    width: 700px;
 }
 
 .name {
-    position: relative;
-    top: -20px;
+    padding-top: 70px;
+    color: black;
+    width: 850px;
 }
 
 .name h3 {
-    color: black;
     font-family: 'Poppins', sans-serif;
     font-size: 55px;
     font-stretch: extra-condensed;
 }
 
 .name h4 {
-    color: black;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .contact {
@@ -59,38 +52,67 @@ body {
 .contact i {
     color: #ff2309;
 }
-
-.footer {
+.profile img{
+    width: 900px;
     position: relative;
-    bottom: -200px;
+    top: -280px;
+    left: -60px;
 }
-
+.footer{
+    position: relative;
+    top: -370px;
+}
 .footer p {
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 13px;
+    font-size: 20px;
 }
-
+.links a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 350;
+    font-size: 22px;
+}
 .slogan {
     position: relative;
-    top: 20px;
+    top: -600px;
+    padding-left: 20px;
+}
+.slogan p{
+    font-size: 40px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+    padding-left: 100px;
 }
-
-.id {
-    position: relative;
-    top: -70px;
-    left: 50px;
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width:1536px) {
     .main {
-        height: 695px;
-        background: url(./mobile.jpg);
-        background-attachment: fixed;
-        background-size: 100% 100%;
-        background-position: center;
-        background-repeat: no-repeat;
+        max-height: 864px;
+        overflow: hidden;
+    }
+    .header{
+        padding-left: 100px;
+        padding-top: 200px;
+    }
+    .header img{
+        width: 500px;
+    }
+    
+    .name {
+        padding-top: 40px;
+        color: black;
+        width: 800px;
+    }
+    
+    .name h3 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 50px;
+        font-stretch: extra-condensed;
+    }
+    
+    .name h4 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 40px;
     }
 }
