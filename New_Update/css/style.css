@@ -92,10 +92,10 @@ body {
     }
     .header{
         padding-left: 100px;
-        padding-top: 200px;
+        padding-top: 100px;
     }
     .header img{
-        width: 500px;
+        width: 550px;
     }
     
     .name {
@@ -114,5 +114,176 @@ body {
         font-family: 'Poppins', sans-serif;
         font-weight: 400;
         font-size: 40px;
+    }
+    .contact {
+        padding-top: 20px;
+        font-size: 26px;
+    }
+    .profile img{
+        width: 650px;
+        position: relative;
+        top: -180px;
+        left: -130px;
+    }
+    .footer{
+        position: relative;
+        top: -250px;
+    }
+    .footer p {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+    }
+    .links a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 350;
+        font-size: 18px;
+    }
+    .slogan {
+        position: relative;
+        top: -400px;
+        padding-left: 20px;
+    }
+    .slogan p{
+        font-size: 30px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        padding-left: 100px;
+    }
+}
+@media screen and (max-width:1440px) {
+    .main {
+        max-height: 900px;
+        overflow: hidden;
+    }
+    .header{
+        padding-left: 100px;
+        padding-top: 100px;
+    }
+    .header img{
+        width: 550px;
+    }
+    
+    .name {
+        padding-top: 40px;
+        color: black;
+        width: 800px;
+    }
+    
+    .name h3 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 47px;
+        font-stretch: extra-condensed;
+    }
+    
+    .name h4 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+    }
+    .contact {
+        padding-top: 20px;
+        font-size: 26px;
+    }
+    .profile img{
+        width: 650px;
+        position: relative;
+        top: -160px;
+        left: -210px;
+    }
+    .footer{
+        position: relative;
+        top: -210px;
+    }
+    .footer p {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+    }
+    .links a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 350;
+        font-size: 18px;
+    }
+    .slogan {
+        position: relative;
+        top: -400px;
+        padding-left: 20px;
+    }
+    .slogan p{
+        font-size: 30px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        padding-left: 100px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .main {
+        max-height: 768px;
+        overflow: hidden;
+    }
+    .header{
+        padding-left: 50px;
+        padding-top: 100px;
+        position: relative;
+        top: 20px;
+    }
+    .header img{
+        width: 500px;
+    }
+    
+    .name {
+        padding-top: 40px;
+        color: black;
+        width: 600px;
+    }
+    
+    .name h3 {
+        font-size: 33px;
+    }
+    
+    .name h4 {
+        font-size: 27px;
+    }
+    .contact {
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    .profile img{
+        width: 450px;
+        position: relative;
+        top: -90px;
+        left: -180px;
+    }
+    .footer{
+        position: relative;
+        top: -100px;
+    }
+    .footer p {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+    }
+    .links a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 350;
+        font-size: 12px;
+    }
+    .slogan {
+        position: relative;
+        top: -250px;
+        padding-left: 20px;
+    }
+    .slogan p{
+        font-size: 25px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        padding-left: 100px;
     }
 }
