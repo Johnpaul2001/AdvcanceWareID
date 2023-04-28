@@ -8,16 +8,21 @@ body{
     margin: 0%;
 }
 .main{
-    height: 968px;
-    width: 690px;
-    background: url(./manager.jpg);
+    height: 1080px;
+    width: 720px;
+    background: url(./bg.jpg);
     background-attachment: fixed;
     background-position: left;
     background-repeat: no-repeat;
     background-size: contain;
+    overflow: hidden;
 }
-.space{
-    height: 500px;
+.head{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.head img{
+    width: 300px;
 }
 .content{
     font-family: 'Poppins', sans-serif;
@@ -85,8 +90,8 @@ body{
 }
 @media screen and (max-width:425px) {
     .main{
-        height: 880px;
-        width: 425px;
+        height: 1080px;
+        width: 720px;
         background-size: 100% 100%;
     }
     .space{
